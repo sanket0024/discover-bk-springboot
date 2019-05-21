@@ -197,8 +197,7 @@ public class UserService {
 		List<User> users = usersList();
 
 		for (User u : users) {
-			if (isValidUser(u, username.toLowerCase(), firstname.toLowerCase(), lastname.toLowerCase(),
-					role.toLowerCase())) {
+			if (isValidUser(u, username, firstname, lastname, role)) {
 				validUsers.add(u);
 			}
 		}
@@ -208,16 +207,16 @@ public class UserService {
 
 	private boolean isValidUser(User u, String username, String firstname, String lastname, String role) {
 
-		if (!username.equals("") && !u.getUsername().equals(username))
+		if (!username.equals("") && !u.getUsername().equalsIgnoreCase(username))
 			return false;
 
-		if (!firstname.equals("") && !u.getFirstName().equals(firstname))
+		if (!firstname.equals("") && !u.getFirstName().equalsIgnoreCase(firstname))
 			return false;
 
-		if (!lastname.equals("") && !u.getLastName().equals(lastname))
+		if (!lastname.equals("") && !u.getLastName().equalsIgnoreCase(lastname))
 			return false;
 
-		if (!role.equals("") && !u.getRole().equals(role))
+		if (!role.equals("") && !u.getRole().equalsIgnoreCase(role))
 			return false;
 
 		return true;
