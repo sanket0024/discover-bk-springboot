@@ -8,11 +8,7 @@ import java.util.Random;
 import com.example.discover.POJO.event.Event;
 import com.example.discover.repository.EventRepository;
 
-/**
- * @Date : Apr 22, 2019
- *
- * @Author: Divyavijay Sahay
- */
+
 
 public class Utils {
 

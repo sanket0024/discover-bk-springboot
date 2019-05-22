@@ -25,11 +25,7 @@ import com.example.discover.repository.HostRepository;
 import com.example.discover.repository.UserRepository;
 import com.google.gson.Gson;
 
-/**
- * @Date : Apr 21, 2019
- *
- * @Author: Divyavijay Sahay
- */
+
 @RestController
 @CrossOrigin(origins = "*", allowCredentials = "true")
 public class ExplorerService {

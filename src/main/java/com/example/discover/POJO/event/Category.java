@@ -9,11 +9,7 @@ import javax.persistence.ManyToOne;
 import com.example.discover.POJO.user.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-/**
- * @Date : Apr 15, 2019
- *
- * @Author: Divyavijay Sahay
- */
+
 @Entity
 public class Category {
 

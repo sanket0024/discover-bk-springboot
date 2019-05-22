@@ -11,11 +11,7 @@ import javax.persistence.ManyToMany;
 import com.example.discover.POJO.event.Event;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-/**
- * @Date : Apr 15, 2019
- *
- * @Author: Divyavijay Sahay
- */
+
 @Entity
 public class Explorer extends User {
 

@@ -9,11 +9,7 @@ import com.example.discover.Utils;
 import com.example.discover.POJO.user.Host;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-/**
- * @Date : Apr 15, 2019
- *
- * @Author: Divyavijay Sahay
- */
+
 @Entity
 public class Event {
 

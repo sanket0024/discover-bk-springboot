@@ -7,11 +7,7 @@ import javax.persistence.Id;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 
-/**
- * @Date : Apr 14, 2019
- *
- * @Author: Divyavijay Sahay
- */
+
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class User {

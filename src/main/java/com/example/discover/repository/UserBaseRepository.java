@@ -8,11 +8,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.example.discover.POJO.user.User;
 
-/**
- * @Date : Apr 22, 2019
- *
- * @Author: Divyavijay Sahay
- */
 
 @Transactional
 @NoRepositoryBean

@@ -8,11 +8,6 @@ import org.springframework.data.repository.query.Param;
 import com.example.discover.POJO.user.Explorer;
 import com.example.discover.POJO.user.User;
 
-/**
- * @Date : Apr 21, 2019
- *
- * @Author: Divyavijay Sahay
- */
 
 public interface ExplorerRepository extends UserBaseRepository<Explorer> {
 	@Query("SELECT user FROM User user WHERE user.username=:username AND user.password=:password")

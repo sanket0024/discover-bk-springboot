@@ -23,11 +23,7 @@ import com.example.discover.repository.ExplorerRepository;
 import com.example.discover.repository.HostRepository;
 import com.google.gson.Gson;
 
-/**
- * @Date : Apr 22, 2019
- *
- * @Author: Divyavijay Sahay
- */
+
 @RestController
 @CrossOrigin(origins = "*", allowCredentials = "true")
 public class HostService {

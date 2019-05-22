@@ -19,11 +19,6 @@ import com.example.discover.POJO.event.Event;
 import com.example.discover.repository.EventRepository;
 import com.google.gson.Gson;
 
-/**
- * @Date : Apr 22, 2019
- *
- * @Author: Divyavijay Sahay
- */
 @RestController
 @CrossOrigin(origins = "*", allowCredentials = "true")
 public class EventService {
